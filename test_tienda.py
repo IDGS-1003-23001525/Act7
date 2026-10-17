@@ -9,7 +9,7 @@ def calcular_iva(precio):
 
 def test_calcular_iva():
     assert calcular_iva(100) == pytest.approx(116.0)
-
+    
 def test_calcular_sin_descuento():
     assert calcular_precio(500,0)
 
